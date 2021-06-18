@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+
+    android:background="@drawable/arkaplan1">
+    
+    <ImageView
+        android:id="@+id/imageViewRecord"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:src="@drawable/addphoto" />
+
+    <EditText
+        android:id="@+id/editAd"
+        android:hint="Ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15" />
+    <EditText
+        android:id="@+id/editAdres"
+        android:hint="Adres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"/>
+    <EditText
+        android:id="@+id/editKonum"
+        android:hint="EvBilgi(Oda sayisi, ücret)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"/>
+    <Button
+        android:id="@+id/btnGuncel"
+        android:text="GÜNCELLE"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
